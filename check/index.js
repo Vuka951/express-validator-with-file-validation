@@ -5,7 +5,8 @@ const {
   cookie,
   header,
   param,
-  query
+  query,
+  files
 } = require('./validation-chain-builders');
 
 module.exports = {
@@ -16,6 +17,7 @@ module.exports = {
   header,
   param,
   query,
+  files,
   checkSchema: require('./schema'),
   oneOf: require('./one-of'),
   validationResult: require('./validation-result')

@@ -13,3 +13,4 @@ export const cookie: ValidationChainBuilder;
 export const header: ValidationChainBuilder;
 export const param: ValidationChainBuilder;
 export const query: ValidationChainBuilder;
+export const files: ValidationChainBuilder;

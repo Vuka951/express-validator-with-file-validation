@@ -1,6 +1,6 @@
 const { isValidator } = require('../utils/filters');
 const check = require('./check');
-const validLocations = ['body', 'cookies', 'headers', 'params', 'query'];
+const validLocations = ['body', 'cookies', 'headers', 'params', 'query', 'files'];
 const notValidators = ['errorMessage', 'in'];
 
 module.exports = (
