@@ -1,3 +1,6 @@
+# This package is the same as express-validator with some minor changes so it would validate files from req.files
+
+
 # express-validator
 
 [![npm version](https://img.shields.io/npm/v/express-validator.svg)](https://www.npmjs.com/package/express-validator)
